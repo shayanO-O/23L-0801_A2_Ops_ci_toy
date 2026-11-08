@@ -1,3 +1,3 @@
 def test_basic_addition():
-    # Intentionally Failing Test For Red CI Stage
-    assert 1 + 1 == 3, "Intentional failure to trigger red CI matrix"
+    # Passing Test For Green CI Stage
+    assert 1 + 1 == 2, "Test passed successfully"
